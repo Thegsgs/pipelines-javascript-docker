@@ -20,5 +20,5 @@ steps:
  - task: Docker@2
    inputs:
      containerRegistry: 'docker registry'
-     repository: 'firstrepo'
+     repository: 'mangobear/firstrepo'
      command: 'push'
