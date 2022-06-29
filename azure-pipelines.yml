@@ -7,7 +7,7 @@ pool:
   - agent.name -equals $(agentName)
 
 variables:
-  imageName: 'pipelines-javascript-docker'
+  imageName: 'mangobear/firstrepo'
   agentName: 'MAIN'
 
 steps:
