@@ -18,12 +18,7 @@ steps:
      command: build
      Dockerfile: app/Dockerfile
  - task: Docker@2
-   displayName: Push image
    inputs:
-   containerRegistry: docker
- - task: Docker@2
-   inputs:
-    containerRegistry: 'docker registry'
-    repository: 'firstrepo'
-    command: 'push'
-   
+     containerRegistry: 'docker registry'
+     repository: 'firstrepo'
+     command: 'push'
