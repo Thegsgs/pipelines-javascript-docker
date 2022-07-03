@@ -8,7 +8,7 @@ pool:
 
 variables:
   imageName: 'mangobear/firstrepo'
-  agentName: 'MAIN'
+  agentName: 'Simons-MacBook-Pro'
 
 steps:
  - task: Docker@2
